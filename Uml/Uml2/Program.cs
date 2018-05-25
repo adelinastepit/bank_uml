@@ -14,7 +14,7 @@ namespace Uml2
 
 			Account account = customer.CreateAccount();
 			Console.WriteLine(account.GetBalance());
-
+			account.WithDraw(2.0);
 		}
 	}
 }

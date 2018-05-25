@@ -9,6 +9,6 @@ namespace Uml2
 	{
 		void Deposit();
 		double GetBalance();
-		void WithDraw(double amount);
+		int WithDraw(double amount);
 	}
 }

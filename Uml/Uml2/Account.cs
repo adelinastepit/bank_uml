@@ -14,21 +14,13 @@ namespace Uml2
 
 		}
 
-		public double Amount
-		{
-			get => default(double);
-			set
-			{
-			}
-		}
+		private double Amount;
 
-		public string IBAN
-		{
-			get => default(string);
-			set
-			{
-			}
-		}
+
+		private string IBAN;
+		
+
+	
 
 		public void Deposit()
 		{
@@ -40,9 +32,14 @@ namespace Uml2
 			return Amount;
 		}
 
-		public void WithDraw(double amount)
-		{
-			throw new System.NotImplementedException();
+		public int WithDraw(double withDrawAmount)
+		{  if (Amount < withDrawAmount )
+			{
+				 Console.WriteLine("The sum is not available");
+				return -1;
+			}
+			Amount = Amount - withDrawAmount;
+			return 0;
 		}
 	}
 }
