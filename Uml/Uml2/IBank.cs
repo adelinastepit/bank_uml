@@ -7,6 +7,6 @@ namespace Uml2
 {
 	public interface IBank
 	{
-		List<IAccount> GetAccounts();
+		List<Account> GetAccounts();
 	}
 }

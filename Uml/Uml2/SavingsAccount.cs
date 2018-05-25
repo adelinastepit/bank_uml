@@ -12,9 +12,20 @@ namespace Uml2
 			throw new System.NotImplementedException();
 		}
 
-		public SavingsAccount()
+		public double Amount
 		{
-			throw new System.NotImplementedException();
+			get => default(int);
+			set
+			{
+			}
+		}
+
+		public string IBAN
+		{
+			get => default(int);
+			set
+			{
+			}
 		}
 
 		public void Create()

@@ -20,7 +20,7 @@ namespace Uml2
 			}
 		}
 
-		private List<IAccount> GetAccounts()
+		public List<IAccount> GetAccounts()
 		{
 			return mAccountList;
 		}
