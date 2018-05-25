@@ -11,10 +11,5 @@ namespace Uml2
 		{
 			throw new System.NotImplementedException();
 		}
-
-		public void Create()
-		{
-			throw new System.NotImplementedException();
-		}
 	}
 }

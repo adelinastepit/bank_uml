@@ -1,1 +1,7 @@
 C:\Users\Trainer\Documents\GitHub\bank_uml\Uml\Uml2\obj\Debug\Uml2.csproj.CoreCompileInputs.cache
+C:\Users\Trainer\Documents\GitHub\bank_uml\Uml\Uml2\obj\Debug\Uml2.csprojResolveAssemblyReference.cache
+C:\Users\Trainer\Documents\GitHub\bank_uml\Uml\Uml2\bin\Debug\Uml2.exe.config
+C:\Users\Trainer\Documents\GitHub\bank_uml\Uml\Uml2\bin\Debug\Uml2.exe
+C:\Users\Trainer\Documents\GitHub\bank_uml\Uml\Uml2\bin\Debug\Uml2.pdb
+C:\Users\Trainer\Documents\GitHub\bank_uml\Uml\Uml2\obj\Debug\Uml2.exe
+C:\Users\Trainer\Documents\GitHub\bank_uml\Uml\Uml2\obj\Debug\Uml2.pdb

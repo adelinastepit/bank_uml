@@ -22,15 +22,10 @@ namespace Uml2
 
 		public string IBAN
 		{
-			get => default(int);
+			get => default(string);
 			set
 			{
 			}
-		}
-
-		public void Create()
-		{
-			throw new System.NotImplementedException();
 		}
 	}
 }

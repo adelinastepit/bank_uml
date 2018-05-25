@@ -7,6 +7,5 @@ namespace Uml2
 {
 	public interface IAccount
 	{
-		void Create();
 	}
 }
