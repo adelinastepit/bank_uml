@@ -14,17 +14,9 @@ namespace Uml2
 
 		}
 
-		private double Amount;
-
-
-		private string IBAN;
-		
-
-	
-
-		public void Deposit()
+		public void Deposit(double depositSum)
 		{
-			throw new System.NotImplementedException();
+			this.Amount += depositSum;
 		}
 
 		public double GetBalance()
@@ -41,5 +33,17 @@ namespace Uml2
 			Amount = Amount - withDrawAmount;
 			return 0;
 		}
+		public string getIBAN()
+		{
+			return IBAN;
+		}
+		
+		private double Amount;
+
+
+		private string IBAN;
+		
 	}
+
+
 }

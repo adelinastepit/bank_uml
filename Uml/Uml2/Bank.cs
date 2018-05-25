@@ -9,12 +9,14 @@ namespace Uml2
 	{
 		public Bank()
 		{
-			throw new System.NotImplementedException();
+			mAccountList = new List<IAccount>();
+			this.Name = "";
+
 		}
 
-		public int Name
+		public string Name
 		{
-			get => default(int);
+			get => default(string);
 			set
 			{
 			}
@@ -23,6 +25,23 @@ namespace Uml2
 		public List<IAccount> GetAccounts()
 		{
 			return mAccountList;
+		}
+
+		public Account FindAccount(string IBAN)
+		{
+			foreach (Account account in mAccountList)
+			{
+				if (IBAN == account.getIBAN())
+				{
+					return account;
+				}
+			}
+			return null;
+		}
+
+		public void AddAccount(Account account)
+		{
+			mAccountList.Add(account);
 		}
 
 		private List<IAccount> mAccountList;

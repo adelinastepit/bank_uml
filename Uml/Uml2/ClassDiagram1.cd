@@ -14,7 +14,7 @@
   <Class Name="Uml2.Account">
     <Position X="7" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAIIAAAAAAAEAAI=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAIIAAACAAAEAAI=</HashCode>
       <FileName>Account.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -34,9 +34,9 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Uml2.Bank">
-    <Position X="10.25" Y="2.25" Width="1.5" />
+    <Position X="10.25" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAABAIAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAQAAAAAAAAABAIAAAAQAAAAAAAAAAAACAAAAAAA=</HashCode>
       <FileName>Bank.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -56,9 +56,9 @@
     </TypeIdentifier>
   </Interface>
   <Interface Name="Uml2.IBank">
-    <Position X="10.25" Y="0.75" Width="1.5" />
+    <Position X="10.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAQAAAAAAAAAAAIAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
       <FileName>IBank.cs</FileName>
     </TypeIdentifier>
   </Interface>
