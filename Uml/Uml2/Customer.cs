@@ -48,6 +48,6 @@ namespace Uml2
 			throw new System.NotImplementedException();
 		}
 
-		private Account[] accounts;
+		private List<IAccount> accounts;
 	}
 }
