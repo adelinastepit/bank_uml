@@ -10,6 +10,10 @@ namespace Uml2
 	{
 		static void Main(string[] args)
 		{
+			Customer customer = new Customer();
+
+			Account account = customer.CreateAccount();
+			Console.WriteLine(account.GetBalance());
 
 		}
 	}

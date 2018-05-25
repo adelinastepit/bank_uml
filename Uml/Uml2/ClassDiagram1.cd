@@ -3,7 +3,7 @@
   <Class Name="Uml2.Customer">
     <Position X="3.75" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAABAQAAIAAAAIAAAAAAAAEAEI=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAQAAIAAAAAAAAAAAAAAAEA=</HashCode>
       <FileName>Customer.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -14,7 +14,7 @@
   <Class Name="Uml2.Account">
     <Position X="7" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAIIAAAAAAAEAAI=</HashCode>
       <FileName>Account.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -26,7 +26,7 @@
       <FileName>SavingsAccount.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Uml2.CurrentAccount">
+  <Class Name="Uml2.CheckingAccount">
     <Position X="8.75" Y="5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAIAAAAAAAAAAA=</HashCode>
@@ -49,9 +49,9 @@
     </TypeIdentifier>
   </Interface>
   <Interface Name="Uml2.IAccount">
-    <Position X="7" Y="1" Width="1.5" />
+    <Position X="7" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAEAAI=</HashCode>
       <FileName>IAccount.cs</FileName>
     </TypeIdentifier>
   </Interface>

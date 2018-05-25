@@ -30,22 +30,7 @@ namespace Uml2
 
 		public Account CreateAccount()
 		{
-			throw new System.NotImplementedException();
-		}
-
-		public void GetBalance()
-		{
-			throw new System.NotImplementedException();
-		}
-
-		public void WithDraw()
-		{
-			throw new System.NotImplementedException();
-		}
-
-		public void Deposit()
-		{
-			throw new System.NotImplementedException();
+			return new Account();
 		}
 
 		private List<IAccount> accounts;

@@ -8,7 +8,7 @@ namespace Uml2
 	public interface IAccount
 	{
 		void Deposit();
-		void GetBalance();
-		void WithDraw();
+		double GetBalance();
+		void WithDraw(double amount);
 	}
 }

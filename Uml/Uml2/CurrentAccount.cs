@@ -5,9 +5,9 @@ using System.Text;
 
 namespace Uml2
 {
-	public class CurrentAccount : Account
+	public class CheckingAccount : Account
 	{
-		public CurrentAccount()
+		public CheckingAccount()
 		{
 			throw new System.NotImplementedException();
 		}

@@ -9,7 +9,25 @@ namespace Uml2
 	{
 		public Account()
 		{
-			throw new System.NotImplementedException();
+			this.Amount = 0.0;
+			this.IBAN = "";
+
+		}
+
+		public double Amount
+		{
+			get => default(double);
+			set
+			{
+			}
+		}
+
+		public string IBAN
+		{
+			get => default(string);
+			set
+			{
+			}
 		}
 
 		public void Deposit()
@@ -17,12 +35,12 @@ namespace Uml2
 			throw new System.NotImplementedException();
 		}
 
-		public void GetBalance()
+		public double GetBalance()
 		{
-			throw new System.NotImplementedException();
+			return Amount;
 		}
 
-		public void WithDraw()
+		public void WithDraw(double amount)
 		{
 			throw new System.NotImplementedException();
 		}
